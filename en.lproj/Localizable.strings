@@ -1,0 +1,23 @@
+"sign_in" = "Sign In";
+"username" = "Username";
+"password" = "Password";
+"email" = "E-Mail";
+"sign_up" = "Sign Up";
+"name" = "Name";
+
+"next" = "Next";
+"done" = "Done";
+"first_name" = "First Name";
+"last_name" = "Last Name";
+
+"close" = "Close";
+
+"registration" = "Registration";
+
+"buy_100_btc" = "Buy 100 BTC";
+"sell_10_btc" = "Sell 10 BTC";
+"send_10_btc" = "Send 10 BTC";
+
+"buy_100_eth" = "Buy 100 ETH";
+"sell_10_eth" = "Sell 10 ETH";
+"send_10_eth" = "Send 10 ETH";

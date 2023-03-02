@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D0AEA2E29A9520100AD1AE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA2D29A9520100AD1AE9 /* AppDelegate.swift */; };
+		0D0AEA3029A9520100AD1AE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA2F29A9520100AD1AE9 /* SceneDelegate.swift */; };
+		0D0AEA3229A9520100AD1AE9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA3129A9520100AD1AE9 /* SignInViewController.swift */; };
+		0D0AEA3529A9520100AD1AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0AEA3329A9520100AD1AE9 /* Main.storyboard */; };
+		0D0AEA3729A9520300AD1AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D0AEA3629A9520300AD1AE9 /* Assets.xcassets */; };
+		0D0AEA3A29A9520300AD1AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D0AEA3829A9520300AD1AE9 /* LaunchScreen.storyboard */; };
+		0D0AEA4729A954BD00AD1AE9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D0AEA4929A954BD00AD1AE9 /* Localizable.strings */; };
+		0D0AEA4C29A9562C00AD1AE9 /* Localizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0AEA4B29A9562C00AD1AE9 /* Localizer.swift */; };
+		0D0F794429AE7E5200DB7A61 /* Bank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F794329AE7E5200DB7A61 /* Bank.swift */; };
+		0D0F794829AE926500DB7A61 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0F794729AE926500DB7A61 /* RegistrationViewModel.swift */; };
+		0D508F5029AFA8FA00EE3CDA /* RegistrationEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D508F4F29AFA8FA00EE3CDA /* RegistrationEmailViewController.swift */; };
+		0D508F5229AFA90B00EE3CDA /* RegistrationNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D508F5129AFA90B00EE3CDA /* RegistrationNameViewController.swift */; };
+		0D6F451529AE4DAF008264A3 /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F451429AE4DAF008264A3 /* EmailValidator.swift */; };
+		0D6F451929AE4E73008264A3 /* HomeContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F451829AE4E73008264A3 /* HomeContainerViewController.swift */; };
+		0D6F451B29AE4ED8008264A3 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F451A29AE4ED8008264A3 /* SignInViewModel.swift */; };
+		0D6F451D29AE4EE4008264A3 /* HomeContainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F451C29AE4EE4008264A3 /* HomeContainerViewModel.swift */; };
+		0D6F451F29AE4FB1008264A3 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F451E29AE4FB1008264A3 /* App.swift */; };
+		0D6F452129AE5852008264A3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452029AE5852008264A3 /* ProfileViewController.swift */; };
+		0D6F452329AE585F008264A3 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452229AE585F008264A3 /* ProfileViewModel.swift */; };
+		0D6F452529AE58AF008264A3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452429AE58AF008264A3 /* HomeViewController.swift */; };
+		0D6F452729AE58B9008264A3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452629AE58B9008264A3 /* HomeViewModel.swift */; };
+		0D6F452929AE58FA008264A3 /* CryptoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452829AE58FA008264A3 /* CryptoViewController.swift */; };
+		0D6F452B29AE5903008264A3 /* CryptoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6F452A29AE5903008264A3 /* CryptoViewModel.swift */; };
+		0DDBD20C29AE6B4D00788050 /* Sink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBD20929AE6B4C00788050 /* Sink.swift */; };
+		0DDBD20D29AE6B4D00788050 /* Crypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBD20A29AE6B4D00788050 /* Crypt.swift */; };
+		0DDBD20E29AE6B4D00788050 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBD20B29AE6B4D00788050 /* Keychain.swift */; };
+		0DDBD21429AE6BB800788050 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DDBD21229AE6BB800788050 /* Database.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0DDBD1FF29AE65E200788050 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D0AEA2A29A9520100AD1AE9 /* AstroPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstroPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0AEA2D29A9520100AD1AE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D0AEA2F29A9520100AD1AE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D0AEA3129A9520100AD1AE9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		0D0AEA3429A9520100AD1AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D0AEA3629A9520300AD1AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D0AEA3929A9520300AD1AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D0AEA3B29A9520300AD1AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D0AEA4329A9537D00AD1AE9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		0D0AEA4429A9537D00AD1AE9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		0D0AEA4829A954BD00AD1AE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D0AEA4A29A954D900AD1AE9 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		0D0AEA4B29A9562C00AD1AE9 /* Localizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localizer.swift; sourceTree = "<group>"; };
+		0D0F794329AE7E5200DB7A61 /* Bank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bank.swift; sourceTree = "<group>"; };
+		0D0F794729AE926500DB7A61 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		0D508F4F29AFA8FA00EE3CDA /* RegistrationEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationEmailViewController.swift; sourceTree = "<group>"; };
+		0D508F5129AFA90B00EE3CDA /* RegistrationNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationNameViewController.swift; sourceTree = "<group>"; };
+		0D6F451429AE4DAF008264A3 /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		0D6F451829AE4E73008264A3 /* HomeContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewController.swift; sourceTree = "<group>"; };
+		0D6F451A29AE4ED8008264A3 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		0D6F451C29AE4EE4008264A3 /* HomeContainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContainerViewModel.swift; sourceTree = "<group>"; };
+		0D6F451E29AE4FB1008264A3 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		0D6F452029AE5852008264A3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0D6F452229AE585F008264A3 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		0D6F452429AE58AF008264A3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0D6F452629AE58B9008264A3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0D6F452829AE58FA008264A3 /* CryptoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewController.swift; sourceTree = "<group>"; };
+		0D6F452A29AE5903008264A3 /* CryptoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoViewModel.swift; sourceTree = "<group>"; };
+		0DDBD20929AE6B4C00788050 /* Sink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sink.swift; sourceTree = "<group>"; };
+		0DDBD20A29AE6B4D00788050 /* Crypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypt.swift; sourceTree = "<group>"; };
+		0DDBD20B29AE6B4D00788050 /* Keychain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		0DDBD21329AE6BB800788050 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		D50B629A29AFC92700DCD4C5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D0AEA2729A9520100AD1AE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D0AEA2129A9520100AD1AE9 = {
+			isa = PBXGroup;
+			children = (
+				D50B629A29AFC92700DCD4C5 /* README.md */,
+				0D0AEA4929A954BD00AD1AE9 /* Localizable.strings */,
+				0D0AEA2C29A9520100AD1AE9 /* AstroPay */,
+				0D0AEA2B29A9520100AD1AE9 /* Products */,
+				0DDBD1FB29AE65E200788050 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D0AEA2B29A9520100AD1AE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D0AEA2A29A9520100AD1AE9 /* AstroPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D0AEA2C29A9520100AD1AE9 /* AstroPay */ = {
+			isa = PBXGroup;
+			children = (
+				D50B629B29B03EBF00DCD4C5 /* Modules */,
+				0D6F451E29AE4FB1008264A3 /* App.swift */,
+				0D0AEA2D29A9520100AD1AE9 /* AppDelegate.swift */,
+				0D0AEA2F29A9520100AD1AE9 /* SceneDelegate.swift */,
+				0D0AEA3329A9520100AD1AE9 /* Main.storyboard */,
+				0D0AEA3629A9520300AD1AE9 /* Assets.xcassets */,
+				0D0AEA3829A9520300AD1AE9 /* LaunchScreen.storyboard */,
+				0D0AEA3B29A9520300AD1AE9 /* Info.plist */,
+				0DDBD21229AE6BB800788050 /* Database.xcdatamodeld */,
+				0D0F794329AE7E5200DB7A61 /* Bank.swift */,
+				0DDBD20A29AE6B4D00788050 /* Crypt.swift */,
+				0D6F451429AE4DAF008264A3 /* EmailValidator.swift */,
+				0D0AEA4B29A9562C00AD1AE9 /* Localizer.swift */,
+				0DDBD20B29AE6B4D00788050 /* Keychain.swift */,
+				0DDBD20929AE6B4C00788050 /* Sink.swift */,
+			);
+			path = AstroPay;
+			sourceTree = "<group>";
+		};
+		0DDBD1FB29AE65E200788050 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D50B629B29B03EBF00DCD4C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D50B62A129B0413A00DCD4C5 /* HomeContainer */,
+				D50B62A029B03F2A00DCD4C5 /* Login */,
+				D50B629F29B03F0F00DCD4C5 /* Registration */,
+				D50B629E29B03EF700DCD4C5 /* Home */,
+				D50B629D29B03EDB00DCD4C5 /* Profile */,
+				D50B629C29B03ECD00DCD4C5 /* Crypto */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		D50B629C29B03ECD00DCD4C5 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F452829AE58FA008264A3 /* CryptoViewController.swift */,
+				0D6F452A29AE5903008264A3 /* CryptoViewModel.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		D50B629D29B03EDB00DCD4C5 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F452029AE5852008264A3 /* ProfileViewController.swift */,
+				0D6F452229AE585F008264A3 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D50B629E29B03EF700DCD4C5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F452429AE58AF008264A3 /* HomeViewController.swift */,
+				0D6F452629AE58B9008264A3 /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D50B629F29B03F0F00DCD4C5 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				0D508F4F29AFA8FA00EE3CDA /* RegistrationEmailViewController.swift */,
+				0D508F5129AFA90B00EE3CDA /* RegistrationNameViewController.swift */,
+				0D0F794729AE926500DB7A61 /* RegistrationViewModel.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		D50B62A029B03F2A00DCD4C5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0D0AEA3129A9520100AD1AE9 /* SignInViewController.swift */,
+				0D6F451A29AE4ED8008264A3 /* SignInViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D50B62A129B0413A00DCD4C5 /* HomeContainer */ = {
+			isa = PBXGroup;
+			children = (
+				0D6F451829AE4E73008264A3 /* HomeContainerViewController.swift */,
+				0D6F451C29AE4EE4008264A3 /* HomeContainerViewModel.swift */,
+			);
+			path = HomeContainer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D0AEA2929A9520100AD1AE9 /* AstroPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D0AEA3E29A9520300AD1AE9 /* Build configuration list for PBXNativeTarget "AstroPay" */;
+			buildPhases = (
+				0D0AEA2629A9520100AD1AE9 /* Sources */,
+				0D0AEA2729A9520100AD1AE9 /* Frameworks */,
+				0D0AEA2829A9520100AD1AE9 /* Resources */,
+				0DDBD1FF29AE65E200788050 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstroPay;
+			productName = AstroPay;
+			productReference = 0D0AEA2A29A9520100AD1AE9 /* AstroPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D0AEA2229A9520100AD1AE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0D0AEA2929A9520100AD1AE9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 0D0AEA2529A9520100AD1AE9 /* Build configuration list for PBXProject "AstroPay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 0D0AEA2129A9520100AD1AE9;
+			productRefGroup = 0D0AEA2B29A9520100AD1AE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D0AEA2929A9520100AD1AE9 /* AstroPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D0AEA2829A9520100AD1AE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0AEA3A29A9520300AD1AE9 /* LaunchScreen.storyboard in Resources */,
+				0D0AEA4729A954BD00AD1AE9 /* Localizable.strings in Resources */,
+				0D0AEA3729A9520300AD1AE9 /* Assets.xcassets in Resources */,
+				0D0AEA3529A9520100AD1AE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D0AEA2629A9520100AD1AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D0AEA3229A9520100AD1AE9 /* SignInViewController.swift in Sources */,
+				0D0AEA2E29A9520100AD1AE9 /* AppDelegate.swift in Sources */,
+				0D508F5029AFA8FA00EE3CDA /* RegistrationEmailViewController.swift in Sources */,
+				0D6F451F29AE4FB1008264A3 /* App.swift in Sources */,
+				0D0AEA4C29A9562C00AD1AE9 /* Localizer.swift in Sources */,
+				0D6F452B29AE5903008264A3 /* CryptoViewModel.swift in Sources */,
+				0D0F794429AE7E5200DB7A61 /* Bank.swift in Sources */,
+				0DDBD21429AE6BB800788050 /* Database.xcdatamodeld in Sources */,
+				0D6F452929AE58FA008264A3 /* CryptoViewController.swift in Sources */,
+				0D6F452529AE58AF008264A3 /* HomeViewController.swift in Sources */,
+				0DDBD20D29AE6B4D00788050 /* Crypt.swift in Sources */,
+				0D0AEA3029A9520100AD1AE9 /* SceneDelegate.swift in Sources */,
+				0D6F452129AE5852008264A3 /* ProfileViewController.swift in Sources */,
+				0D0F794829AE926500DB7A61 /* RegistrationViewModel.swift in Sources */,
+				0DDBD20E29AE6B4D00788050 /* Keychain.swift in Sources */,
+				0D6F451B29AE4ED8008264A3 /* SignInViewModel.swift in Sources */,
+				0DDBD20C29AE6B4D00788050 /* Sink.swift in Sources */,
+				0D508F5229AFA90B00EE3CDA /* RegistrationNameViewController.swift in Sources */,
+				0D6F451929AE4E73008264A3 /* HomeContainerViewController.swift in Sources */,
+				0D6F451D29AE4EE4008264A3 /* HomeContainerViewModel.swift in Sources */,
+				0D6F452329AE585F008264A3 /* ProfileViewModel.swift in Sources */,
+				0D6F451529AE4DAF008264A3 /* EmailValidator.swift in Sources */,
+				0D6F452729AE58B9008264A3 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D0AEA3329A9520100AD1AE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0AEA3429A9520100AD1AE9 /* Base */,
+				0D0AEA4329A9537D00AD1AE9 /* fr */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D0AEA3829A9520300AD1AE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0AEA3929A9520300AD1AE9 /* Base */,
+				0D0AEA4429A9537D00AD1AE9 /* fr */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0D0AEA4929A954BD00AD1AE9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D0AEA4829A954BD00AD1AE9 /* en */,
+				0D0AEA4A29A954D900AD1AE9 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D0AEA3C29A9520300AD1AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D0AEA3D29A9520300AD1AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D0AEA3F29A9520300AD1AE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduargo.data.sink.AstroPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D0AEA4029A9520300AD1AE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AstroPay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduargo.data.sink.AstroPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D0AEA2529A9520100AD1AE9 /* Build configuration list for PBXProject "AstroPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0AEA3C29A9520300AD1AE9 /* Debug */,
+				0D0AEA3D29A9520300AD1AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0AEA3E29A9520300AD1AE9 /* Build configuration list for PBXNativeTarget "AstroPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0AEA3F29A9520300AD1AE9 /* Debug */,
+				0D0AEA4029A9520300AD1AE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0DDBD21229AE6BB800788050 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0DDBD21329AE6BB800788050 /* Database.xcdatamodel */,
+			);
+			currentVersion = 0DDBD21329AE6BB800788050 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0D0AEA2229A9520100AD1AE9 /* Project object */;
+}

@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "RgE-sd-gM6"; */
+"RgE-sd-gM6.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "aFN-9F-w2c"; */
+"aFN-9F-w2c.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "Sign In"; ObjectID = "hp3-5Q-tW8"; */
+"hp3-5Q-tW8.text" = "Sign In";

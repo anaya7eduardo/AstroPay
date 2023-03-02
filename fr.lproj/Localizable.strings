@@ -1,0 +1,23 @@
+"sign_in" = "S'identifier";
+"username" = "Nom D'Utilisateur";
+"password" = "Mot De Passe";
+"email" = "E-Mail";
+"sign_up" = "S'Inscrire";
+"name" = "Nom";
+
+"next" = "Suivante";
+"done" = "Faite";
+"first_name" = "Prénom";
+"last_name" = "Nom De Famille";
+
+"close" = "Fermer";
+
+"registration" = "Inscription";
+
+"buy_100_btc" = "Acheter 100 BTC";
+"sell_10_btc" = "Vendre 10 BTC";
+"send_10_btc" = "Envoyer 10 BTC";
+
+"buy_100_eth" = "Acheter 100 ETH";
+"sell_10_eth" = "Vendre 10 ETH";
+"send_10_eth" = "Envoyer 10 ETH";
